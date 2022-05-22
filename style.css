@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Great+Vibes&family=Waiting+for+the+Sunrise&family=Zen+Loop&family=Zen+Maru+Gothic&display=swap");
+
+@import url("components/typewriter.css");
+@import url("components/input.css");
+@import url("components/clock.css");
+@import url("components/weather.css");
+@import url("components/todo.css");
+@import url("components/quote.css");
+
+body {
+	color: black;
+	font-size: 50px;
+}
+
+.hidden {
+	display: none;
+}
+img {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	z-index: -1;
+	opacity: 80%;
+}

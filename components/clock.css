@@ -1,0 +1,12 @@
+#clock {
+	font-family: "Zen Loop", cursive;
+	text-align: start;
+	position: absolute;
+	left: 50%;
+	top: 20%;
+	transform: translate(-50%, -50%);
+	color: #605c57;
+	text-shadow: 0 0 20px rgb(247, 201, 108, 1), 0 0 20px rgba(10, 175, 230, 0);
+	letter-spacing: 0.05em;
+	font-size: 100px;
+}

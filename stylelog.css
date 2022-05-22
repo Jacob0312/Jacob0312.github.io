@@ -1,0 +1,43 @@
+body {
+	background: #fffc00;
+	height: 100vh;
+}
+.main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 80%;
+}
+.main img {
+	width: 100px;
+}
+.set {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-end;
+}
+#login {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	background: red;
+	width: 100vw;
+}
+
+#signup {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: white;
+	background-color: blue;
+	width: 100vw;
+}
+
+a {
+	color: white;
+	text-decoration: none; /* no underline */
+}

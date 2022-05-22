@@ -1,0 +1,7 @@
+#quote {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	font-family: "Great Vibes", cursive;
+	font-size: 28px;
+}
