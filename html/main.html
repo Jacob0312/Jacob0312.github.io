@@ -4,26 +4,44 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="../stylelog.css" />
-		<title>main</title>
+		<link rel="stylesheet" href="../style.css" />
+		<title>Document</title>
 	</head>
 	<body>
-		<div class="main">
-			<img src="../img/ghostlogo.png" />
-			<h1>JAKECHAT</h1>
+		<div id="weather">
+			<span></span>
+			<span></span>
 		</div>
-		<div class="set">
-			<a id="clicklog">
-				<div id="login">
-					<h1>LOGIN</h1>
-				</div>
-			</a>
-			<a href="login.html">
-				<div id="signup">
-					<h1>SIGN UP</h1>
-				</div>
-			</a>
+		<div id="todo-list">
+			<form id="todo-form">
+				<h1>What are you up to?</h1>
+				<input type="text" />
+			</form>
 		</div>
-		<script src="../js/verify.js"></script>
+		<div id="quote">
+			<span></span>
+			<span></span>
+		</div>
+		<div id="clock">
+			<h1 class="time"></h1>
+		</div>
+		<div id="typewriter"></div>
+		<div id="login_text">
+			<h1>I want to call you by name:</h1>
+		</div>
+		<div class="login_pos">
+			<form id="login">
+				<input id="logval" type="text" minlength="2" required />
+				<input class="hidden" id="btn" type="submit" />
+			</form>
+		</div>
+
+		<script src="../js/typewrite.js"></script>
+		<script src="../js/clock.js"></script>
+		<script src="../js/login.js"></script>
+		<script src="../js/todo.js"></script>
+		<script src="../js/weather.js"></script>
+		<script src="../js/quotes.js"></script>
+		<script src="../js/background.js"></script>
 	</body>
 </html>

@@ -7,7 +7,7 @@ const onSubmit = (event) => {
 	const input = logval.value;
 	if (input != "" && input.length >= 2 && input.length <= 10) {
 		localStorage.setItem(USER_KEY, input);
-		window.location.href = "index.html";
+		window.location.href = "main.html";
 	} else {
 		console.log("error");
 	}

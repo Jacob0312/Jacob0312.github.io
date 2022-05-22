@@ -4,7 +4,7 @@ const loginbtn = document.getElementById("clicklog");
 
 const onClick = () => {
 	if (saved !== null) {
-		window.location.href = "index.html";
+		window.location.href = "main.html";
 	} else {
 		alert("You are not logged in! please sign up");
 	}
